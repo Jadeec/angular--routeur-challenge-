@@ -1,0 +1,16 @@
+<div class="photo">
+    <img [src]="User.photo" alt="a guy">
+</div>
+
+<div class="presentation">
+  <p>Hi my name is {{User.firstName}} {{User.name}} 
+  </p>
+
+ <p *ngIf = "hideAge" > I am {{User.age}} years old ;) </p>
+ 
+</div>
+<button (click)= " hideAge ? (hideAge = false) : (hideAge = true) " > Click to hide age </button>
+<div class="quote">
+    <input type="text" [(ngModel)]="User.quote"  >
+    <p> {{User.quote}}</p>
+</div>

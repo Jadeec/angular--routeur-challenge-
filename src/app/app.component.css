@@ -1,0 +1,21 @@
+.block {
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    
+}
+
+.blockTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.blockBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
